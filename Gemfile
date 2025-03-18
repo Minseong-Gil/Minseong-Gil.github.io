@@ -1,9 +1,11 @@
 source "https://rubygems.org"
 
+gem "jekyll"
+gem "webrick"
 gem "github-pages", group: :jekyll_plugins
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# Windows 전용 gems
+platform :mswin, :mingw, :x64_mingw do
+  gem "tzinfo", ">= 1.2.10"
+  gem "tzinfo-data"
+end
