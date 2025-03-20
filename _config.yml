@@ -76,7 +76,7 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: "Efficient Thread Allocation for Multi-Tenant GPU Inference Workloads"
+        title: "~~"
         description: |
           [Conference Name, Year]  
           This paper presents novel thread allocation strategies for optimizing multi-tenant GPU inference workloads, enhancing execution efficiency and resource management.
@@ -84,21 +84,12 @@ content:
         link_text: "Read More"
 
       - layout: top-middle
-        title: "Accelerating AI Workloads with GPU Microarchitecture Enhancements"
+        title: "~~"
         description: |
           [Conference Name, Year]  
           We propose new GPU microarchitecture techniques to support advanced numeric formats and improve computational efficiency.
         link: "https://doi.org/yyyyyyy"
         link_text: "Read More"
-
-      - layout: top-middle
-        title: "CXL Memory System for High-Bandwidth AI Computing"
-        description: |
-          [Conference Name, Year]  
-          This work explores the use of CXL memory systems to enable low-latency, high-bandwidth memory access for AI accelerators.
-        link: "https://doi.org/zzzzzzz"
-        link_text: "Read More"
-
 
   # - title: Publication # Title for the section
   #   layout: list # Type of content section (list/text)
