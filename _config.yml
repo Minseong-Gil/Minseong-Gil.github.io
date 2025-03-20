@@ -49,30 +49,29 @@ additional_links:
 # about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, I am Minseong Gil, a graduate student in the Integrated M.S./Ph.D. program at Korea University. I conduct research in GPU Architecture at the Computer Architecture and System Software Lab (ComSys), advised by Professor Younho Oh.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  My research focuses on GPU microarchitecture and high-performance GPU computing, particularly in hardware design for computational efficiency and software techniques for optimized GPU execution. I am interested in CUDA programming, GPU execution efficiency, and architectural improvements for AI workloads.
+
+  For more details about my research and publications, please check out the rest of my website.
 
 content:
-  - title: Projects # Title for the section
+  - title: Research # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        title: GPU Software Techniques and Microarchitecture
+        # link: github.com/Minseong-Gil
+        # link_text: Research Website
+        # additional_links:
+        #   - title: Google Scholar
+        #     icon: fas fa-book
+        #     url: scholar.google.com/citations?user=XXXXX
+        #   - title: ResearchGate
+        #     icon: fas fa-graduation-cap
+        #     url: researchgate.net/profile/Minseong-Gil
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
+          My research focuses on GPU software techniques and microarchitecture improvements, aiming to enhance both execution efficiency and computational capabilities. I explore thread allocation strategies for multi-tenant GPU inference workloads, optimizing resource management to improve performance and scalability. Simultaneously, I work on GPU microarchitecture enhancements, designing novel techniques that boost computational efficiency and support advanced numeric formats. By bridging software optimizations with architectural innovations, my work contributes to more efficient and scalable GPU computing for high-performance and AI workloads.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
