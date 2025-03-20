@@ -75,6 +75,10 @@ content:
           I explore thread allocation strategies for multi-tenant GPU inference workloads, optimizing resource management to improve performance and scalability. 
           Also, I work on GPU microarchitecture enhancements, designing novel techniques that support advanced numeric formats. 
           My work contributes to more efficient and scalable GPU computing for high-performance and AI workloads.
+        title: CXL Memory System
+        description: | # this will include new lines to allow paragraphs
+          I am currently working on a CXL memory system, which is a new memory technology that enables high-bandwidth, low-latency memory access for accelerators. 
+          ...
   # - title: Experience # Title for the section
   #   layout: list # Type of content section (list/text)
   #   content:
