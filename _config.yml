@@ -51,7 +51,7 @@ additional_links:
 about_content: | # this will include new lines to allow paragraphs
   Hi, I am Minseong Gil, a graduate student in the Integrated M.S./Ph.D. program at Korea University. I conduct research in GPU Architecture at the Computer Architecture and System Software Lab (ComSys), advised by Professor Younho Oh.
 
-  My research focuses on GPU microarchitecture and high-performance GPU computing, particularly in hardware design for computational efficiency and software techniques for optimized GPU execution. I am interested in CUDA programming, GPU execution efficiency, and architectural improvements for AI workloads.
+  My research focuses on GPU microarchitecture and high-performance GPU computing, particularly in hardware design for computational efficiency and software techniques for optimized GPU execution. I am interested in CUDA programming, GPU execution efficiency, and enhancing GPU microarchitecture to improve AI workload performance.
 
   For more details about my research and publications, please check out the rest of my website.
 
