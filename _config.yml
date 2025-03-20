@@ -17,7 +17,7 @@ darkmode: true
 
 # Social links
 # twitter_username: facespics
-github_username:  sproogen
+# github_username:  sproogen
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -61,24 +61,17 @@ content:
     content:
       - layout: top-middle
         title: GPU Software Techniques and Microarchitecture
-        # link: github.com/Minseong-Gil
-        # link_text: Research Website
-        # additional_links:
-        #   - title: Google Scholar
-        #     icon: fas fa-book
-        #     url: scholar.google.com/citations?user=XXXXX
-        #   - title: ResearchGate
-        #     icon: fas fa-graduation-cap
-        #     url: researchgate.net/profile/Minseong-Gil
-        description: | # this will include new lines to allow paragraphs
+        description: |
           My research focuses on GPU software techniques and microarchitecture improvements, aiming to enhance both execution efficiency and computational capabilities. 
           I explore thread allocation strategies for multi-tenant GPU inference workloads, optimizing resource management to improve performance and scalability. 
           Also, I work on GPU microarchitecture enhancements, designing novel techniques that support advanced numeric formats. 
           My work contributes to more efficient and scalable GPU computing for high-performance and AI workloads.
+
+      - layout: top-middle
         title: CXL Memory System
-        description: | # this will include new lines to allow paragraphs
-          I am currently working on a CXL memory system, which is a new memory technology that enables high-bandwidth, low-latency memory access for accelerators. 
-          ...
+        description: |
+          I am currently working on a CXL memory system, which is a new memory technology that enables high-bandwidth, low-latency memory access for accelerators.
+
   # - title: Experience # Title for the section
   #   layout: list # Type of content section (list/text)
   #   content:
