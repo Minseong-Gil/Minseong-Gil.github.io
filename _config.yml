@@ -49,88 +49,143 @@ additional_links:
 # about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I am Minseong Gil, a graduate student in the Integrated M.S./Ph.D. program at Korea University. I conduct research in GPU Architecture at the Computer Architecture and System Software Lab (ComSys), advised by Professor Younho Oh.
+  Hi, I am Minseong Gil, a Ph.D. student at Korea University. I conduct research in GPU architecture at the Computer Architecture and System Software Lab (ComSys), advised by Professor Younho Oh.
 
   My research focuses on GPU microarchitecture and high-performance GPU computing, particularly in hardware design for computational efficiency and software techniques for optimized GPU execution. I am interested in CUDA programming, GPU execution efficiency, and enhancing GPU microarchitecture to improve AI workload performance.
 
   For more details about my research and publications, please check out the rest of my website.
 
 content:
-  - title: Research # Title for the section
+  # - title: Research # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: GPU Software Techniques and Microarchitecture
+  #       description: |
+  #         My research focuses on GPU software techniques and microarchitecture improvements, aiming to enhance both execution efficiency and computational capabilities. 
+  #         I explore thread allocation strategies for multi-tenant GPU inference workloads, optimizing resource management to improve performance and scalability. 
+  #         Also, I work on GPU microarchitecture enhancements, designing novel techniques that support advanced numeric formats. 
+  #         My work contributes to more efficient and scalable GPU computing for high-performance and AI workloads.
+
+  #     - layout: top-middle
+  #       title: CXL Memory System
+  #       description: |
+  #         To be added.
+
+  - title: Publication # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: GPU Software Techniques and Microarchitecture
-        description: |
-          My research focuses on GPU software techniques and microarchitecture improvements, aiming to enhance both execution efficiency and computational capabilities. 
-          I explore thread allocation strategies for multi-tenant GPU inference workloads, optimizing resource management to improve performance and scalability. 
-          Also, I work on GPU microarchitecture enhancements, designing novel techniques that support advanced numeric formats. 
-          My work contributes to more efficient and scalable GPU computing for high-performance and AI workloads.
+      - layout: left
+        title: IEEE CAL
+        # link: https://dl.acm.org/doi/abs/10.1145/3735452.3735529
+        # link_text: Read More
+        sub_title: Major journal in computer architecture
+        caption: 2025
+        description: >
+            **MOST: Memory Oversubscription-aware Scheduling for Tensor Migration on GPU Unified Storage**<br>
+            Junsu Kim, Jaebeom Jeon, Jaeyong Park, Sangun Choi, <b><u>Minseong Gil</u></b>, Seokin Hong, Gunjae Koo, Myung Kuk Yoon, and Yunho Oh
+      
+      - layout: left
+        title: LCTES 2025
+        link: https://dl.acm.org/doi/abs/10.1145/3735452.3735529
+        link_text: Read More
+        sub_title: Major conference in embedded systems
+        caption: 2025
+        description: >
+            **SSFFT: Energy-Efficient Selective Scaling for Fast Fourier Transform in Embedded GPUs**<br>
+            Dongwon Yang, Jaebeom Jeon, <b><u>Minseong Gil</u></b>, Junsu Kim, Seondeok Kim, Gunjae Koo, Myung Kuk Yoon, and Yunho Oh
+      
+      - layout: left
+        title: LCTES 2025
+        link: https://dl.acm.org/doi/abs/10.1145/3735452.3735537
+        link_text: Read More
+        sub_title: Major conference in embedded systems
+        caption: 2025
+        description: >
+            **Kubism: Disassembling and Reassembling K-Means Clustering for Mobile Heterogeneous Platforms**<br>
+            Seondeok Kim, Sangun Choi, Jaebeom Jeon, Junsu Kim, <b><u>Minseong Gil</u></b>, Jaehyeok Ryu, and Yunho Oh
+      
+      - layout: left
+        title: ISCA 2025
+        link: https://dl.acm.org/doi/10.1145/3695053.3731100
+        link_text: Read More
+        sub_title: Top-tier Conference
+        caption: 2025
+        description: >
+            **Avant-Garde: Empowering GPUs with Scaled Numeric Formats**<br>
+            <b><u>Minseong Gil</u></b>, Dongho Ha, Simla Burcu Harma, Myung Kuk Yoon, Babak Falsafi, Won Woo Ro, and Yunho Oh
+      
+      - layout: left
+        title: IEEE ESL
+        link: https://ieeexplore.ieee.org/document/10753458
+        link_text: Read More
+        sub_title: Major journal in embedded systems
+        caption: 2024
+        description: >
+            **TLP Balancer: Predictive Thread Allocation for Multi-Tenant Inference in Embedded GPUs**<br>
+            <b><u>Minseong Gil</u></b>, Jaebeom Jeon, Junsu Kim, Sangun Choi, Gunjae Koo, Myung Kuk Yoon, and Yunho Oh
+      
+      - layout: left
+        title: ICPP 2024
+        link: https://dl.acm.org/doi/10.1145/3673038.3673045
+        link_text: Read More
+        sub_title: Major conference in computer architecture
+        caption: 2024
+        description: >
+            **VitBit: Enhancing Embedded GPU Performance for AI Workloads through Register Operand Packing**<br>
+            Jaebeom Jeon, <b><u>Minseong Gil</u></b>, Junsu Kim, Jaeyong Park, Gunjae Koo, Myung Kuk Yoon, and Yunho Oh
 
-      - layout: top-middle
-        title: CXL Memory System
-        description: |
-          To be added.
-
-#  - title: Publications
-#    layout: list
-#    content:
-#      - layout: top-middle
-#        title: "~~"
-#        description: |
-#          [Conference Name, Year]  
-#          This paper presents novel thread allocation strategies for optimizing multi-tenant GPU inference workloads, enhancing execution efficiency and resource management.
-#        link: "https://doi.org/xxxxxxx"
-#        link_text: "Read More"
-
-#      - layout: top-middle
-#        title: "~~"
-#        description: |
-#          [Conference Name, Year]  
-#          We propose new GPU microarchitecture techniques to support advanced numeric formats and improve computational efficiency.
-#        link: "https://doi.org/yyyyyyy"
-#        link_text: "Read More"
-
-  # - title: Publication # Title for the section
-  #   layout: list # Type of content section (list/text)
+  # - title: Publications
+  #   layout: list
   #   content:
-  #     - layout: left
-  #       title: The Boring Company
-  #       link: boringcompany.com
-  #       # link_text: boringcompany.com
-  #       sub_title: Senior Network System Administrator
-  #       caption: November 2017 - Present
-  #       quote: >
-  #         Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-  #       description: | # this will include new lines to allow paragraphs
-  #           Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+  #   - layout: top
+  #     description: >
+  #       <b>IEEE CAL (Major journal in computer architecture)</b><br>
+  #       MOST: Memory Oversubscription-aware Scheduling for Tensor Migration on GPU Unified Storage<br>
+  #       Junsu Kim, Jaebeom Jeon, Jaeyong Park, Sangun Choi, <b><u>Minseong Gil</u></b>, Seokin Hong, Gunjae Koo, Myung Kuk Yoon, and Yunho Oh
+  #       <a href="https://doi.org/10.1109/MCAL.2025.1234567" target="_blank">Read More</a>
 
-  # - title: Education # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: Harvard University
-  #       caption: 2010 - 2013
-  #       sub_title: BSc Computer Science
-  #       quote: >
-  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-  #       description: | # this will include new lines to allow paragraphs
-  #         During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+  #   - layout: top
+  #     description: >
+  #       <b>LCTES 2025 (Major conference in embedded systems)</b><br>
+  #       SSFFT: Energy-Efficient Selective Scaling for Fast Fourier Transform in Embedded GPUs<br>
+  #       Dongwon Yang, Jaebeom Jeon, <b><u>Minseong Gil</u></b>, Junsu Kim, Seondeok Kim, Gunjae Koo, Myung Kuk Yoon, Yunho Oh<br>
+  #       <a href="https://doi.org/10.1145/3735452.3735529" target="_blank">Read More</a>
 
-  #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  #   - layout: top
+  #     description: >
+  #       <b>LCTES 2025 (Major conference in embedded systems)</b><br>
+  #       Kubism: Disassembling and Reassembling K-Means Clustering for Mobile Heterogeneous Platforms<br>
+  #       Seondeok Kim, Sangun Choi, Jaebeom Jeon, Junsu Kim, <b><u>Minseong Gil</u></b>, Jaehyeok Ryu, Yunho Oh<br>
+  #       <a href="https://doi.org/10.1145/3735452.3735537" target="_blank">Read More</a>
 
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-  #     - Rock climbing
-  #     - Gaming
-  #     - Knitting
-  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  #   - layout: top
+  #     description: >
+  #       <b>ISCA 2025 (Top-tier Conference)</b><br>
+  #       Avant-Garde: Empowering GPUs with Scaled Numeric Formats<br>
+  #       <b><u>Minseong Gil</u></b>, Dongho Ha, Simla Burcu Harma, Myung Kuk Yoon, Babak Falsafi, Won Woo Ro, Yunho Oh<br>
+  #       <a href="https://doi.org/10.1145/3695053.3731100" target="_blank">Read More</a>
 
-  #     Look at this cool image  
-  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  #   - layout: top
+  #     description: >
+  #       <b>IEEE ESL (Major journal in embedded systems)</b><br>
+  #       TLP Balancer: Predictive Thread Allocation for Multi-Tenant Inference in Embedded GPUs<br>
+  #       <b><u>Minseong Gil</u></b>, Jaebeom Jeon, Junsu Kim, Sangun Choi, Gunjae Koo, Myung Kuk Yoon, Yunho Oh<br>
+  #       <a href="https://doi.org/10.1109/LES.2024.10753458" target="_blank">Read More</a>
 
+  #   - layout: top
+  #     description: >
+  #       <b>ICPP 2024 (Major conference in computer architecture)</b><br>
+  #       VitBit: Enhancing Embedded GPU Performance for AI Workloads through Register Operand Packing<br>
+  #       Jaebeom Jeon, <b><u>Minseong Gil</u></b>, Junsu Kim, Jaeyong Park, Gunjae Koo, Myung Kuk Yoon, Yunho Oh<br>
+  #       <a href="https://doi.org/10.1145/3673038.3673045" target="_blank">Read More</a>
+
+
+
+  - title: Education
+    layout: text
+    content: |
+        - B.S. in Electronic Engineering, Ajou University, 2023
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
