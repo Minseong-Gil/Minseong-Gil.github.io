@@ -83,7 +83,7 @@ content:
         caption: 2026
         description: >
             **Bauhaus: Restructuring Vector Database for LLM Retrieval on CXL-Based Tiered Memory**<br>
-            Kyungbin Kim*, Sungsu Ahn, Wonjung Jeong, Jongmin Kim, Sangun Choi, <b><u>Minseong Gil</u></b>, Minseong Kim, Dongha Jeong, Yunjay Hong, Haekang Jung, and Yunho Oh
+            Kyungbin Kim, Sungsu Ahn, Wonjung Jeong, Jongmin Kim, Sangun Choi, <b><u>Minseong Gil</u></b>, Minseong Kim, Dongha Jeong, Yunjay Hong, Haekang Jung, and Yunho Oh
       
       - layout: left
         title: IEEE CAL
@@ -93,7 +93,7 @@ content:
         caption: 2025
         description: >
             **MOST: Memory Oversubscription-aware Scheduling for Tensor Migration on GPU Unified Storage**<br>
-            Junsu Kim*, Jaebeom Jeon, Jaeyong Park, Sangun Choi, <b><u>Minseong Gil</u></b>, Seokin Hong, Gunjae Koo, Myung Kuk Yoon, and Yunho Oh
+            Junsu Kim, Jaebeom Jeon, Jaeyong Park, Sangun Choi, <b><u>Minseong Gil</u></b>, Seokin Hong, Gunjae Koo, Myung Kuk Yoon, and Yunho Oh
       
       - layout: left
         title: LCTES 2025
@@ -103,7 +103,7 @@ content:
         caption: 2025
         description: >
             **SSFFT: Energy-Efficient Selective Scaling for Fast Fourier Transform in Embedded GPUs**<br>
-            Dongwon Yang*, Jaebeom Jeon, <b><u>Minseong Gil</u></b>, Junsu Kim, Seondeok Kim, Gunjae Koo, Myung Kuk Yoon, and Yunho Oh
+            Dongwon Yang, Jaebeom Jeon, <b><u>Minseong Gil</u></b>, Junsu Kim, Seondeok Kim, Gunjae Koo, Myung Kuk Yoon, and Yunho Oh
       
       - layout: left
         title: LCTES 2025
@@ -113,7 +113,7 @@ content:
         caption: 2025
         description: >
             **Kubism: Disassembling and Reassembling K-Means Clustering for Mobile Heterogeneous Platforms**<br>
-            Seondeok Kim*, Sangun Choi*, Jaebeom Jeon, Junsu Kim, <b><u>Minseong Gil</u></b>, Jaehyeok Ryu, and Yunho Oh
+            Seondeok Kim, Sangun Choi, Jaebeom Jeon, Junsu Kim, <b><u>Minseong Gil</u></b>, Jaehyeok Ryu, and Yunho Oh
       
       - layout: left
         title: ISCA 2025
@@ -123,7 +123,7 @@ content:
         caption: 2025
         description: >
             **Avant-Garde: Empowering GPUs with Scaled Numeric Formats**<br>
-            <b><u>Minseong Gil</u></b>*, Dongho Ha*, Simla Burcu Harma, Myung Kuk Yoon, Babak Falsafi, Won Woo Ro, and Yunho Oh
+            <b><u>Minseong Gil</u></b>, Dongho Ha, Simla Burcu Harma, Myung Kuk Yoon, Babak Falsafi, Won Woo Ro, and Yunho Oh
       
       - layout: left
         title: IEEE ESL
@@ -133,7 +133,7 @@ content:
         caption: 2024
         description: >
             **TLP Balancer: Predictive Thread Allocation for Multi-Tenant Inference in Embedded GPUs**<br>
-            <b><u>Minseong Gil</u></b>*, Jaebeom Jeon, Junsu Kim, Sangun Choi, Gunjae Koo, Myung Kuk Yoon, and Yunho Oh
+            <b><u>Minseong Gil</u></b>, Jaebeom Jeon, Junsu Kim, Sangun Choi, Gunjae Koo, Myung Kuk Yoon, and Yunho Oh
       
       - layout: left
         title: ICPP 2024
@@ -143,7 +143,7 @@ content:
         caption: 2024
         description: >
             **VitBit: Enhancing Embedded GPU Performance for AI Workloads through Register Operand Packing**<br>
-            Jaebeom Jeon*, <b><u>Minseong Gil</u></b>, Junsu Kim, Jaeyong Park, Gunjae Koo, Myung Kuk Yoon, and Yunho Oh
+            Jaebeom Jeon, <b><u>Minseong Gil</u></b>, Junsu Kim, Jaeyong Park, Gunjae Koo, Myung Kuk Yoon, and Yunho Oh
 
   # - title: Publications
   #   layout: list
