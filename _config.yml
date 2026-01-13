@@ -80,7 +80,7 @@ content:
         # link: https://dl.acm.org/doi/abs/10.1145/3735452.3735529
         # link_text: Read More
         sub_title: Top journal in computer architecture
-        caption: 2025
+        caption: 2026
         description: >
             **Bauhaus: Restructuring Vector Database for LLM Retrieval on CXL-Based Tiered Memory**<br>
             Kyungbin Kim*, Sungsu Ahn, Wonjung Jeong, Jongmin Kim, Sangun Choi, <b><u>Minseong Gil</u></b>, Minseong Kim, Dongha Jeong, Yunjay Hong, Haekang Jung, and Yunho Oh
