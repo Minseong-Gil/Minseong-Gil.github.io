@@ -76,6 +76,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: IEEE ESL
+        # link: https://dl.acm.org/doi/abs/10.1145/3735452.3735529
+        # link_text: Read More
+        sub_title: Major journal in embedded systems
+        caption: 2026
+        description: >
+            **Futurism: Accelerating K-Means Clustering on Embedded Systems via Vector Engines**<br>
+            Jaehyeok Ryu, Dowoong Kong, Yiseok Lee, <b><u>Minseong Gil</u></b>, Gunjae Koo, Myung Kuk Yoon, and Yunho Oh
+
+      - layout: left
         title: IEEE TC
         # link: https://dl.acm.org/doi/abs/10.1145/3735452.3735529
         # link_text: Read More
