@@ -87,8 +87,8 @@ content:
 
       - layout: left
         title: IEEE TC
-        # link: https://dl.acm.org/doi/abs/10.1145/3735452.3735529
-        # link_text: Read More
+        link: https://ieeexplore.ieee.org/document/11363378
+        link_text: Read More
         sub_title: Top journal in computer architecture
         caption: 2026
         description: >
